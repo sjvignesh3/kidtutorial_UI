@@ -11,7 +11,7 @@ export const DashboardContainer = styled.div`
     margin : 1rem;
     padding : 3rem;
 
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1200px){
         border-radius : 0.3rem;
         margin : 0.3rem;
     }
@@ -25,8 +25,8 @@ export const HomeLayout = styled.div`
     flex-wrap : wrap;
     width : 100%;
     height: 100vh;
-    @media screen and (max-width: 1024px){
-        width: 90%;
+    @media screen and (max-width: 1200px){  
+        width: 100%;
         display: block;
         height: auto;
     }
@@ -34,7 +34,7 @@ export const HomeLayout = styled.div`
 
 export const FlexColumn = styled.div`
     width: 50%;
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1200px){
         width: 100%;
         margin: auto;
     }

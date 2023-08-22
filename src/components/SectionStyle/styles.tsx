@@ -3,7 +3,7 @@ import {styled} from 'styled-components'
 export const SectionContainer = styled.div`
     width : 90%;
     margin-bottom : 1rem;
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1200px){
         width: 90%;
     }
 `
@@ -24,7 +24,7 @@ export const SectionContent = styled.div`
     display : grid;
     column-gap : 1.5rem;
     grid-template-columns : 1fr 1fr;
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1200px){
         display: block;
     }
 `
