@@ -4,7 +4,7 @@ export const Card = styled.div`
     display : flex;
     padding : 2rem;
     border-radius : 1.25rem;
-    background : #facedd;
+    background : #1d1d1d;
     color: #fefefe;
     margin: 1rem 0rem 1rem 0rem;
 `
@@ -25,7 +25,7 @@ export const Button = styled.button`
     height: 30px;
     border-radius : 1rem;
     background : #fefefe;
-    color : #facedd;
+    color : #1d1d1d;
     font-weight : 700;
     
 `

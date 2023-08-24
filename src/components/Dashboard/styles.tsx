@@ -1,6 +1,9 @@
 import { Container } from "react-bootstrap"
 import { styled } from "styled-components"
 
+interface props {
+    width: string;
+}
 export const DashboardContainer = styled.div`
     flex: 1;
     color: black;
@@ -32,8 +35,8 @@ export const HomeLayout = styled.div`
     }
 `
 
-export const FlexColumn = styled.div`
-    width: 50%;
+export const FlexColumn = styled.div<props>`
+    width: ${props => props.width};
     @media screen and (max-width: 1200px){
         width: 100%;
         margin: auto;

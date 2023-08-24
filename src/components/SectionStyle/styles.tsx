@@ -1,10 +1,10 @@
 import {styled} from 'styled-components'
 
 export const SectionContainer = styled.div`
-    width : 90%;
+    width : 100%;
     margin-bottom : 1rem;
     @media screen and (max-width: 1200px){
-        width: 90%;
+        width: 100%;
     }
 `
 export const SectionHeader = styled.div`

@@ -11,12 +11,11 @@ const Dashboard = () => {
     <S.DashboardContainer>
       <Header/>
       <S.HomeLayout>
-        <S.FlexColumn>
+        <S.FlexColumn width={"57%"}>
           <DailyPlan/>
           <Training/>
-          
         </S.FlexColumn>
-        <S.FlexColumn>
+        <S.FlexColumn width={"37%"}>
           <Progress/>
           <Statistics/>
         </S.FlexColumn>

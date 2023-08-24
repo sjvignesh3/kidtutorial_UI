@@ -23,8 +23,8 @@ export const NavPages = [
 
   export const AppBrand = {
     img : "https://img.icons8.com/pastel-glyph/64/sales-growth.png",
-    height: 90,
-    width: 90,
+    height: 60,
+    width: 60,
     brand : "Kiditorial"
   }
 
