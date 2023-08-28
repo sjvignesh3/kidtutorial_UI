@@ -21,12 +21,13 @@ export const DivLeft = styled.div`
 ` 
 
 export const SText = styled.div`
-    font-weight : 500;
+    font-weight : 600;
+    font-style: bold;
     padding-right : 1rem;
 `
 
 export const LText = styled.div`
     font-weight : 700;
-    font-size : 26px;
+    font-size : 44px;
     padding-right : 1rem;
 `

@@ -1,3 +1,4 @@
+import { Image } from 'react-bootstrap'
 import {styled} from 'styled-components'
 
 export const SectionContainer = styled.div`
@@ -21,10 +22,35 @@ export const FullWidth = styled.div`
 `
 
 export const SectionContent = styled.div`
+    width: 100%;
+    height: 100%;
     display : grid;
     column-gap : 1.5rem;
     grid-template-columns : 1fr 1fr;
     @media screen and (max-width: 1200px){
         display: block;
     }
+`
+
+export const ProgressContent = styled.div`
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 2px solid;
+    justify-content: space-around;
+`
+
+export const ImageDiv = styled.div`
+    width: 40%;
+    height: 40%;
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+`
+export const ImageContent = styled(Image)`
+    height: 100px;
+    weight: 100px;
+    padding: 1rem;
 `

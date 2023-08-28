@@ -6,9 +6,9 @@ const Header = () => {
     <>
         <S.HeaderContainer>
             <S.DivRight>
-                <S.SText>80</S.SText>
-                <S.SText>100</S.SText>
-                <S.SText>820</S.SText>
+                <S.SText>5</S.SText>
+                <S.SText>90</S.SText>
+                <S.SText>Vigneshwaran J</S.SText>
             </S.DivRight>
             <S.DivLeft>
                 <S.LText>Hi, Vigneshwaran J!</S.LText>
