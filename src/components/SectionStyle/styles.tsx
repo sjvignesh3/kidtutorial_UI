@@ -37,7 +37,6 @@ export const ProgressContent = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    border: 2px solid;
     justify-content: space-around;
 `
 
@@ -45,7 +44,6 @@ export const ImageDiv = styled.div`
     width: 40%;
     height: 40%;
     display: flex;
-    border: 2px solid red;
     justify-content: center;
     align-items: center;
 `
