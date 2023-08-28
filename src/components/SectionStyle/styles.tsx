@@ -43,7 +43,7 @@ export const ProgressContent = styled.div`
 export const ImageDiv = styled.div`
     width: 40%;
     height: 40%;
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
 `
