@@ -78,6 +78,9 @@ export const PageSectionContainer = styled.div<activePageProp>`
     background: ${props=> props.activepg ? "green": "#695bf6"};
     @media screen and (max-width: 1200px) { 
         margin : 4rem 0rem 4rem 0rem;
+    };
+    &:hover{
+        background-color : green;
     }
     
 `   

@@ -11,6 +11,7 @@ const Header = () => {
                 <S.SText>Vigneshwaran J</S.SText>
             </S.DivRight>
             <S.DivLeft>
+                <S.Image src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-541.jpg?w=740"/>
                 <S.LText>Hi, Vigneshwaran J!</S.LText>
             </S.DivLeft>
         </S.HeaderContainer>

@@ -1,10 +1,15 @@
 import {styled} from 'styled-components'
 
-export const Card = styled.div`
+interface CardColor{
+    bgColor : string
+}
+
+export const Card = styled.div<CardColor>`
     display : flex;
+    justify-content : space-between;
     padding : 2rem;
     border-radius : 1.25rem;
-    background : #1d1d1d;
+    background : ${props => props.bgColor ? props.bgColor: props.bgColor};
     color: #fefefe;
     margin: 1rem 0rem 1rem 0rem;
 `
@@ -28,4 +33,7 @@ export const Button = styled.button`
     color : #1d1d1d;
     font-weight : 700;
     
+`
+export const Image = styled.img`
+   
 `

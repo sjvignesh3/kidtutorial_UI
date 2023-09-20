@@ -1,5 +1,14 @@
 import { Container, Row } from "react-bootstrap"
-import { styled } from "styled-components"
+import styled, { keyframes } from 'styled-components';
+
+const fadeInAnimation = keyframes`
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+`;
 
 export const LGContainer = styled(Row)`
     display : flex;
@@ -9,4 +18,7 @@ export const LGContainer = styled(Row)`
         justify-content: flex-start;
         width: 50rem;
     }
+    animation: ${fadeInAnimation} ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: left ;
 `

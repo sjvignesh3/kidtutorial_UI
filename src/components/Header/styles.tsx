@@ -29,5 +29,11 @@ export const SText = styled.div`
 export const LText = styled.div`
     font-weight : 700;
     font-size : 44px;
-    padding-right : 1rem;
+    margin-left: 1rem;
+`
+
+export const Image = styled.img`
+    height : 50px;
+    width : 50px;
+    border-radius : 50%
 `

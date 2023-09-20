@@ -1,6 +1,7 @@
 import React from 'react'
 import * as S from '../SectionStyle/styles'
 import Card from '../Card/Card'
+import { TodayPlan } from '../../screens/AppData'
 
 const Training = () => {
   return (
@@ -13,7 +14,7 @@ const Training = () => {
 
             <S.SectionContent>
                 <S.FullWidth>
-                    <Card/>
+                    <Card Content= {TodayPlan[0]}/>
                 </S.FullWidth>  
             </S.SectionContent>      
         </S.SectionContainer>
